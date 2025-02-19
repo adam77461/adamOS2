@@ -21,21 +21,24 @@ adamOS is a custom-built operating system designed for **lightweight resource ma
 ```bash
 git clone https://github.com/adam77461/adamOS.git
 cd adamOS
-'''
+```
 
 2️⃣ Build the system:
 
 bash
 Copy
 Edit
+```bash
 make
+```
 3️⃣ Run in an emulator:
 
 bash
 Copy
 Edit
-'''
+```bash
 qemu-system-x86_64 -kernel adamOS.bin
+```
 📜 Documentation
 For detailed technical specifications and usage, refer to the Wiki.
 
